@@ -38,7 +38,7 @@ a{
 }
 
 section{
-    padding: 50px;
+    padding: 5% 2%;
     padding-bottom: 80px;
 }
 
@@ -921,3 +921,4 @@ footer a i{
     font-size: 1rem;
     color: var(--dark-blue);
 }
+

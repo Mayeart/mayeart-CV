@@ -39,7 +39,8 @@ a{
 
 section{
     padding: 5% 2%;
-    padding-bottom: 80px;
+    padding-bottom: 8%;
+    box-sizing: border-box;
 }
 
 section .secContainer{
@@ -921,4 +922,5 @@ footer a i{
     font-size: 1rem;
     color: var(--dark-blue);
 }
+
 

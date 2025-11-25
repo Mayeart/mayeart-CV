@@ -55,6 +55,14 @@ section .secContainer {
 
 @media (max-width: 768px) {
 
+section .secContainer {
+        flex-direction: column; /* apila elementos verticalmente */
+        width: 95%;             /* que no ocupe todo el ancho */
+        max-width: 100%;        /* evita que se salga del viewport */
+        gap: 15px;              /* menos espacio entre elementos */
+        margin: 0 auto;         /* centrado */
+    }
+    
     section {
         padding: 3% 2%;
         padding-bottom: 5%;
@@ -982,6 +990,7 @@ footer a i{
         font-size: 18px; /* iconos más pequeños */
     }
 }
+
 
 
 

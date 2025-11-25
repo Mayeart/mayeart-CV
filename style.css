@@ -728,13 +728,14 @@ box-shadow: 0 0 5px rgba(247, 197,159,1),
 
 /*-------------portafolio css section--------*/
 
-.portfolio-gallery{
+.portfolio-gallery {
     margin-left: 40px;
     padding: 1em;
     display: grid;
     gap: 40px;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
 
 .port-box{
     position: relative;
@@ -979,6 +980,7 @@ footer a i{
         font-size: 18px; /* iconos más pequeños */
     }
 }
+
 
 
 

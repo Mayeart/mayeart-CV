@@ -336,22 +336,22 @@ header .container{
     }
 }
 
-.socialicon{
-    margin-top:30px;
+.socialicon {
+    margin-top: 30px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 25px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap; /* importante para móviles */
 }
 
-.socialicon a{
+.socialicon a {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60px;
     height: 60px;
-    border:  2px solid var(--one-blue);
+    border: 2px solid var(--one-blue);
     border-radius: 5px;
     transition: 0.4s;
 }
@@ -965,6 +965,7 @@ footer a i{
     font-size: 1rem;
     color: var(--dark-blue);
 }
+
 
 
 

@@ -54,15 +54,43 @@ section .secContainer {
 
 
 @media (max-width: 768px) {
+
     section {
         padding: 3% 2%;
         padding-bottom: 5%;
     }
 
-    section .secContainer {
-        flex-direction: column; /* apila elementos verticalmente en móviles */
+    .titlesec h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        white-space: normal;
     }
+
+    .text-animation {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .Skills .Skill-main {
+        grid-template-columns: 1fr;
+    }
+
+    .service-box {
+        flex: 1 1 100%;
+        margin-bottom: 1rem;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-about img {
+        margin-top: 20px;
+    }
+
 }
+
 
 
 /* Header Section */
@@ -937,6 +965,7 @@ footer a i{
     font-size: 1rem;
     color: var(--dark-blue);
 }
+
 
 
 

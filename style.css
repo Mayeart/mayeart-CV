@@ -197,32 +197,33 @@ header .container{
     align-items: center; 
 }
 
-.btn{
-    display: flex;
-    justify-content: space-between;
+.btn, .btn-box a.btn {
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    gap: 5px;
-    flex-wrap: nowrap;
-    padding: 0.5rem 1rem;
+    width: auto;
+    min-width: 120px;
+    height: 100%;
+    background: var(--one-blue);
+    color: var(--dark-blue);
     font-size: 1rem;
-    font-weight: 500;
-    border: 3px solid  var(--rose);
-    border-radius: 2rem;
-    text-transform: uppercase;
-    color: var(--white);
-    word-spacing: 5px;
+    letter-spacing: 1px;
     font-weight: 600;
-    }
+    transition: .6s;
+    box-shadow: 0 0 5px rgba(247, 197,159,1),
+                0 0 15px rgba(247, 197,159,1),
+                0 0 15px rgba(247, 197,159,1);
+}
+
+.btn:hover, .btn-box a.btn:hover {
+    background: #ffffff;
+    color: var(--dark-blue);
+    font-weight: 600;
+}
 
 .btn i{
     font-size: 22px;
 }    
-
-.btn:hover{
-    background-color:var(--dark-blue);
-    color: #c7ccdb;
-}
-
 
 /*title section*/
 .titlesec{
@@ -965,6 +966,7 @@ footer a i{
     font-size: 1rem;
     color: var(--dark-blue);
 }
+
 
 
 

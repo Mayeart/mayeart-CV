@@ -939,32 +939,45 @@ box-shadow: 0 0 5px rgba(247, 197,159,1),
     align-items: center;
 }
 
-footer{
+footer {
     padding: 1.5rem 10%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background:var(--gris);
+    text-align: center;
+    background: var(--gris);
 }
 
-footer p{
+footer p {
     color: var(--text-color);
 }
 
-footer a{
+footer a {
     display: inline-flex;
     justify-content: center;
     color: var(--text-color);
     background: var(--one-blue);
     padding: .6rem;
     border-radius: 5px;
-    font-weight: 800px;
-    
+    font-weight: 800;
+    margin-top: 5px; /* para que no se pegue en móviles */
 }
+
 
 footer a i{
     font-size: 1rem;
     color: var(--dark-blue);
+}
+
+@media (max-width: 768px) {
+    .btn, .btn-box a.btn {
+        font-size: 0.9rem; /* más pequeño en móviles */
+        padding: 0.4rem 0.8rem;
+    }
+    .btn i {
+        font-size: 18px; /* iconos más pequeños */
+    }
 }
 
 

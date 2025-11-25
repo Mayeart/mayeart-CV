@@ -433,10 +433,10 @@ header .container{
     background: var(--gris);
 }
 
-.Skill-main{
+.Skill-main {
     width: 100%;
     display: grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 50px;
     row-gap: 40px;
 }
@@ -980,6 +980,7 @@ footer a i{
         font-size: 18px; /* iconos más pequeños */
     }
 }
+
 
 
 
